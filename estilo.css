@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+.container{
+    margin:auto;
+    margin-top:15vw;
+    width: 90%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 2fr repeat(6,1fr);
+    grid-template-rows: 2fr repeat(8,1fr);
+}
+.container div{
+    border:1px solid black;
+}
+.c1{
+    grid-column-start:3;
+}
+.fecha1{
+    background-color:lightseagreen;
+    grid-column-start:1;
+    
+}
+.c15{
+    grid-column-start:3 ;
+}
+.c33{
+    text-align: center;
+    background-color: lightseagreen;
+    grid-column-start:1;
+    grid-column-end:span 8;
+}
